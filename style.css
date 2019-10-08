@@ -1,3 +1,14 @@
 h1 {
     color: red;
 }
+
+main {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+div {
+    padding: 10px;
+}
