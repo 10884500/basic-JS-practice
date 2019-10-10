@@ -1,14 +1,41 @@
+
+html {
+    background-image: url(https://ak0.picdn.net/shutterstock/videos/31113850/thumb/1.jpg?ip=x480); 
+}
 h1 {
-    color: red;
+    color: #ffd700;
+    text-align: center;
+    padding: 2px;
+
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
 }
 
 main {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 4rem;
     width: 100%;
-    height: auto;
-    display: flex;
-    justify-content: space-around;
-}
+    max-width: 1280px;
+    margin: 0 auto;
+    margin-bottom: 6rem;
+    padding: .8rem;
+    justify-content: center;
+  }
 
 div {
-    padding: 10px;
+    border: 3px solid slategray;
+    border-radius: .8rem;
+    background-color: gray;
+    margin: auto;
+}
+p {
+    color: #000000;
+    text-align: center;
+    padding: 2px;
+}
+img {
+    width: 366.656px;
+    height: 636px;
+    border-radius: .8rem;
+    border: 1px solid #ffd700;
 }
